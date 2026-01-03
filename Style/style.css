@@ -1,15 +1,34 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
 
+.header-section{
+    background-color: #fffbf0;
+}
+
 .nav-bar{
     max-width: 1080px;
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .image-container{
@@ -23,9 +42,58 @@
 .navigation-list{
     list-style:none;
     gap: 20px;
+    font-weight: 500;
 }
 
+/* common style */
 .display-flex{
     display: flex;
     
+}
+
+.primary-btn{
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(to bottom,#A4BC46, #85A019) ;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.primary-color{
+    color: #363958;
+}
+
+.secondary-color{
+    color: #3C3C3C;
+}
+
+.tershiary-color{
+    color: #3E3E3E;
+}
+
+.orange{
+    color: #FABE4C;
+}
+
+.banner{
+    max-width: 1080px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.banner-title{
+    font-size: 4rem ;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform:uppercase;
+
+}
+
+.banner-paragraph{
+    font-weight: 400;
+    margin-top: 0px;
+
 }
