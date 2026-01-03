@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.nav-bar{
+    max-width: 1080px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.image-container{
+    width: 18.125rem;
+}
+
+.logo{
+    width: 100%;
+}
+
+.navigation-list{
+    list-style:none;
+    gap: 20px;
+}
+
+.display-flex{
+    display: flex;
+    
+}
