@@ -99,15 +99,24 @@
 
 }
 
-/* woman clothes */
-.women-jacket{
+/* clothes */
+.all-jacket{
     max-width: 1080px;
     margin: auto;
+    
+}
+
+.women-jacket{
     margin-top: 50px;
 }
 
-.w-jacket-sec-title{
-    font-size: 3rem;
+.men-jacket{
+    margin-top: 80px;
+}
+
+/* jacket's common style */
+.jacket-sec-title{
+    font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
 }
