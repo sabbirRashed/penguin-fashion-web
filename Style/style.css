@@ -76,6 +76,7 @@
     color: #FABE4C;
 }
 
+
 .banner{
     max-width: 1080px;
     margin: auto;
@@ -96,4 +97,66 @@
     font-weight: 400;
     margin-top: 0px;
 
+}
+
+/* woman clothes */
+.women-jacket{
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.w-jacket-sec-title{
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.card-container{
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.card{
+    box-shadow: 0px 10px 30px #0000000d;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-image{
+    justify-content: center;
+    width: 100%;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    
+}
+
+.c-image{
+    width: 75%;
+    padding:20px;
+   
+}
+
+.card-title{
+    font-size: 1.5rem ;
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+
+.card-paragraph{
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.price-section{
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 900;
+    
 }
