@@ -1,29 +1,29 @@
 .bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.roboto{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
 
-.header-section{
+.header-section {
     background-color: #fffbf0;
 }
 
-.nav-bar{
+.nav-bar {
     max-width: 1080px;
     margin: auto;
     justify-content: space-between;
@@ -31,53 +31,53 @@
     padding-top: 40px;
 }
 
-.image-container{
+.image-container {
     width: 18.125rem;
 }
 
-.logo{
+.logo {
     width: 100%;
 }
 
-.navigation-list{
-    list-style:none;
+.navigation-list {
+    list-style: none;
     gap: 20px;
     font-weight: 500;
 }
 
 /* common style */
-.display-flex{
+.display-flex {
     display: flex;
-    
+
 }
 
-.primary-btn{
+.primary-btn {
     width: 160px;
     height: 50px;
-    background: linear-gradient(to bottom,#A4BC46, #85A019) ;
+    background: linear-gradient(to bottom, #A4BC46, #85A019);
     color: white;
     border-radius: 10px;
     margin-top: 10px;
 }
 
-.primary-color{
+.primary-color {
     color: #363958;
 }
 
-.secondary-color{
+.secondary-color {
     color: #3C3C3C;
 }
 
-.tershiary-color{
+.tershiary-color {
     color: #3E3E3E;
 }
 
-.orange{
+.orange {
     color: #FABE4C;
 }
 
 
-.banner{
+.banner {
     max-width: 1080px;
     margin: auto;
     justify-content: space-between;
@@ -85,87 +85,128 @@
     padding-bottom: 80px;
 }
 
-.banner-title{
-    font-size: 4rem ;
+.banner-title {
+    font-size: 4rem;
     font-weight: 400;
     letter-spacing: 0;
-    text-transform:uppercase;
+    text-transform: uppercase;
 
 }
 
-.banner-paragraph{
+.banner-paragraph {
     font-weight: 400;
     margin-top: 0px;
 
 }
 
 /* clothes */
-.all-jacket{
+.all-jacket {
     max-width: 1080px;
     margin: auto;
-    
+
 }
 
-.women-jacket{
+.women-jacket {
     margin-top: 50px;
 }
 
-.men-jacket{
+.men-jacket {
     margin-top: 80px;
 }
 
 /* jacket's common style */
-.jacket-sec-title{
+.jacket-sec-title {
     font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.card-container{
+.card-container {
     gap: 30px;
     margin-top: 25px;
 }
 
-.card{
+.card {
     box-shadow: 0px 10px 30px #0000000d;
     padding: 20px;
     border-radius: 20px;
 }
 
-.card-image{
+.card-image {
     justify-content: center;
     width: 100%;
     background-color: #F1F1F1;
     border-radius: 20px;
-    
+
 }
 
-.c-image{
+.c-image {
     width: 75%;
-    padding:20px;
-   
+    padding: 20px;
+
 }
 
-.card-title{
-    font-size: 1.5rem ;
+.card-title {
+    font-size: 1.5rem;
     font-weight: 600;
     margin-top: 15px;
-    
+
 }
 
-.card-paragraph{
+.card-paragraph {
     margin-top: 10px;
     font-weight: 400;
 }
 
-.price-section{
+.price-section {
     justify-content: space-between;
     margin-top: 10px;
     align-items: center;
 }
 
-.price{
+.price {
     font-size: 2rem;
     font-weight: 900;
-    
+
+}
+
+.last-section {
+    max-width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+
+.last-s-card {
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.08);
+}
+
+
+.card-content-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.card-content-paragraph {
+    font-size: 0.8rem;
+}
+
+.shopping-image-container {
+    width: 70%;
+}
+
+.shopping-image {
+    width: 100%;
 }
